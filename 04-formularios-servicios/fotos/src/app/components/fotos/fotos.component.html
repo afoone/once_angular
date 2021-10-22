@@ -1,0 +1,9 @@
+<app-search
+  (setSearch)="search($event)"
+></app-search>
+
+<div class="fotos">
+  <div *ngFor="let foto of fotos">
+    <app-foto-item [foto]="foto"></app-foto-item>
+  </div>
+</div>
