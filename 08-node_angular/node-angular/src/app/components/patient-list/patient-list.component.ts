@@ -1,5 +1,4 @@
 import { Component, OnInit, DoCheck } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Patient } from 'src/app/models/patient';
 import { PatientService } from 'src/app/service/patient.service';
 

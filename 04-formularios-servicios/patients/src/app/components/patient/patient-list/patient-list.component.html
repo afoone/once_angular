@@ -1,4 +1,9 @@
 <div class="patient-list">
+  <div class="buttons">
+    <a routerLink="/patients/new"
+      ><button class="btn btn-small btn-primary">New Patient</button></a
+    >
+  </div>
   <table class="table">
     <thead>
       <tr>
@@ -10,9 +15,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let patient of patientService.getPatients() | males: true">
+      <tr *ngFor="let patient of patients">
         <td>{{ patient.name | uppercase }}</td>
-        <!-- <td>{{ patient.name | lowercase }}</td> -->
         <td>{{ patient.sex }}</td>
         <td>{{ patient.age | suma: 100 }}</td>
         <td>{{ patient.diagnostics }}</td>
