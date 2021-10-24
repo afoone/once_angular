@@ -21,7 +21,7 @@ export class PatientService {
   constructor(private httpClient: HttpClient) {}
 
   getPatients = () => {
-    return this.httpClient.get<Patient[]>('http://localhost:4000/patients/');
+    return this.httpClient.get<Patient[]>('http://localhost:4000/patients');
   };
 
   getPatient = (id: string): Observable<Patient> => {
@@ -35,6 +35,7 @@ export class PatientService {
   };
 
   savePatient = (patient: Patient, id: string = ''): Observable<Patient> => {
+    console.log("saving patient", id)
     if (id) {
       return this.httpClient
         .put<Patient>(
@@ -46,7 +47,7 @@ export class PatientService {
     } else {
       return this.httpClient
         .post<Patient>(
-          'http://localhost:4000/patients/',
+          'http://localhost:4000/patients',
           patient,
           this.httpOptions
         )

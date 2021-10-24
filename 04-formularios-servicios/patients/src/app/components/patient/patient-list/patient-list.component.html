@@ -12,6 +12,7 @@
         <th>Age</th>
         <th>Diagnostics</th>
         <th>Hourly Rate</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -21,6 +22,12 @@
         <td>{{ patient.age | suma: 100 }}</td>
         <td>{{ patient.diagnostics }}</td>
         <td>{{ patient.hourlyRate | currency: "EUR" }}</td>
+        <td>
+          <a
+            [routerLink]="['/patients/', patient.id]"
+            routerLinkActive="router-link-active"
+          >Editar</a>
+        </td>
       </tr>
     </tbody>
   </table>

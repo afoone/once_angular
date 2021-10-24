@@ -10,6 +10,13 @@ import { NewPatientComponent } from './views/new-patient/new-patient.component';
 import { PatientFormComponent } from './components/patient-form/patient-form.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuComponent } from './components/menu/menu.component';
+import {
+  APP_BASE_HREF,
+  HashLocationStrategy,
+  LocationStrategy,
+} from '@angular/common';
+import { EditComponentComponent } from './views/edit-component/edit-component.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +27,11 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     NewPatientComponent,
     PatientFormComponent,
+    MenuComponent,
+    EditComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
-  providers: [],
+  providers: [  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

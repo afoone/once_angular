@@ -44,3 +44,9 @@ PATCH /patients/1
 {
 	add: {edad, 1}
 }
+
+
+
+Sync validators: Synchronous functions that take a control instance and immediately return either a set of validation errors or null. Pass these in as the second argument when you instantiate a FormControl.
+
+Async validators: Asynchronous functions that take a control instance and return a Promise or Observable that later emits a set of validation errors or null. Pass these in as the third argument when you instantiate a FormControl.
