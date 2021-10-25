@@ -1,0 +1,8 @@
+<nav>
+  <button (click)="toggle()">Toggle Open/Close</button>
+</nav>
+
+<div [@open-close]="show ? 'open' : 'closed'" class="open-close-container">
+  <p>The box is now {{ show ? 'Open' : 'Closed' }}!</p>
+</div>
+
