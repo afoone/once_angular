@@ -1,0 +1,116 @@
+{
+  "patients": [
+    {
+      "name": "ACIDO FLUORIDRICO PORCELAIN ETCH",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 1
+    },
+    {
+      "name": "sdds",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 2
+    },
+    {
+      "name": "sdds",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 3,
+      "age": 33
+    },
+    {
+      "name": "sdds",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 4
+    },
+    {
+      "name": "sdds",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 5
+    },
+    {
+      "name": "adsfad",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 6,
+      "age": 33
+    },
+    {
+      "name": "hola",
+      "diagnostics": [],
+      "sex": "M",
+      "id": 7
+    },
+    {
+      "name": "hola",
+      "diagnostics": [],
+      "sex": "M",
+      "id": 8
+    },
+    {
+      "name": "hola",
+      "diagnostics": [],
+      "sex": "M",
+      "id": 9
+    },
+    {
+      "name": "sdf",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 10
+    },
+    {
+      "name": "sadf",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 11
+    },
+    {
+      "name": "sadf",
+      "diagnostics": [],
+      "sex": "F",
+      "id": 12
+    },
+    {
+      "name": "sdfd",
+      "diagnostics": [],
+      "sex": "M",
+      "age": 0,
+      "id": 13
+    },
+    {
+      "name": "ACIDO FLUORIDRICO PORCELAIN ETCH",
+      "diagnostics": [],
+      "sex": "M",
+      "age": null,
+      "id": 14
+    },
+    {
+      "name": "asdf",
+      "diagnostics": [],
+      "age": null,
+      "sex": "F",
+      "hourlyRate": 56,
+      "id": 15
+    },
+    {
+      "name": "sdfd",
+      "diagnostics": [],
+      "age": null,
+      "sex": "F",
+      "hourlyRate": 45,
+      "id": 16
+    },
+    {
+      "name": "asdkflj",
+      "diagnostics": [],
+      "age": 21,
+      "sex": "F",
+      "id": 17
+    }
+  ],
+  "diagnostics": []
+}
