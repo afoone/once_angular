@@ -1,3 +1,5 @@
+// Esto es un observer básico, sin rxjs
+
 class Subject {
     constructor(){
         this.observers = []
@@ -29,7 +31,7 @@ subject.add(observer1);
 subject.add(observer2);
 
 subject.notify("hola mundo");
-subject.notify("hola 2")
+subject.notify("hola 2")`
 let i = 0;
 setInterval(
     ()=> {subject.notify("hola a ratos "+ i); i++},
